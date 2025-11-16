@@ -1,0 +1,65 @@
+/* Float-up animation (entry) */
+@keyframes floatUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-float-up {
+  animation: floatUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+/* Pulse (soft glow) for buttons or accent elements */
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 0px rgba(255, 123, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(255, 123, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(255, 123, 0, 0.3);
+  }
+}
+
+.pulse-glow {
+  animation: pulseGlow 2s infinite;
+}
+
+/* Card hover effect (alternate) */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 123, 0, 0.4);
+}
+
+/* Slight scale on hover for images */
+.scale-up-hover {
+  transition: transform 0.3s ease;
+}
+.scale-up-hover:hover {
+  transform: scale(1.03);
+}
