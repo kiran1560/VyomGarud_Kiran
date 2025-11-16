@@ -9,6 +9,7 @@ export default function Page() {
   return (
     <main >
       <Home />
+      
       <About />
       <Capabilities />
       <Highlights />

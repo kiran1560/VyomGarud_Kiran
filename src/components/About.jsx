@@ -14,29 +14,27 @@ export default function About() {
     <div className="mb-4">
       <h2 className="fw-bold text-white">
         Mission: Operational superiority through autonomy
-      </h2>
+      </h2><br></br>
       <p style={{ color: "#888888" }} className="mt-2">
-        VyomGarud develops hardened UAV solutions focused on persistent ISR,
-        reliable communications, and autonomous mission execution. We design
-        with redundancy, secure data links, and verified control logic for
-        mission-critical environments.
-      </p>
+       We specialize in limitless-range UAVs powered by cellular and LoRa-based hybrid communication, enabling seamless command, control, and multi-drone coordination even in challenging environments. Built with military-grade precision, VyomGarud systems combine cutting-edge avionics, AI-driven telemetry, and secure cloud infrastructure to deliver unmatched situational awareness and mission endurance. At VyomGarud, we believe the future of aerial operations lies in autonomy, resilience, and connectivity and we are engineering that future today.
+      </p><br></br>
     </div>
 
     <div className="row mt-4">
       {[
-        {
-          heading: "Engineering Excellence",
-          text: "Built by aerospace and autonomy experts using MIL-grade components and rigorous verification.",
-        },
-        {
-          heading: "Autonomous Systems",
-          text: "Adaptive navigation and collision avoidance designed for minimal operator workload ",
-        },
-        {
-          heading: "Secure Communications",
-          text: "Encrypted telemetry, multi-band links, and failover routing for resilient data transfer during operations.",
-        },
+       {
+  heading: "Limitless-Range UAV Systems",
+  text: "Specializing in cellular and LoRa hybrid communication for seamless command and control in challenging environments.",
+},
+{
+  heading: "Military-Grade Precision",
+  text: "Built with advanced avionics, AI-driven telemetry, and secure cloud infrastructure to ensure unmatched situational awareness.",
+},
+{
+  heading: "Future-Focused Autonomy",
+  text: "Engineering resilient and connected aerial operations, pioneering autonomy for next-generation mission success.",
+}
+
       ].map(({ heading, text }, i) => (
         <div key={i} className="col-md-4 mb-4 mb-md-0">
           <div

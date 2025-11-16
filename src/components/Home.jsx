@@ -17,7 +17,7 @@ export default function Home() {
     >
       <div className="container py-5">
         <div className="row align-items-center gy-5">
-          {/* LEFT SIDE */}
+          {/* Left side */}
           <div className="col-md-6">
             <div className="d-flex align-items-center gap-3 mb-3">
               <div
@@ -40,7 +40,7 @@ export default function Home() {
               </span>
             </div>
 
-            {/* TITLE with hover effect */}
+      
             <h1
               className="fw-bold display-5"
               style={{
@@ -59,10 +59,10 @@ export default function Home() {
                 e.currentTarget.style.textShadow = "none";
               }}
             >
-              Military-grade UAV systems
+              VyomGarud :  UAV systems
             </h1>
 
-            {/* Bullet points */}
+          
             <ul
               style={{
                 color: "#ffb84d",
@@ -71,6 +71,7 @@ export default function Home() {
                 paddingLeft: "1.2rem",
                 listStyleType: "disc",
                 fontWeight: "600",
+                fontSize: "1.1rem",
               }}
             >
               <li>Precision</li>
@@ -78,30 +79,31 @@ export default function Home() {
               <li>Reliability</li>
             </ul>
 
-            {/* Paragraphs - white and scale up on hover */}
+  
             <p
               className="mt-3"
               style={{
                 color: "#fff",
                 transition: "transform 0.3s ease",
                 cursor: "default",
+                fontSize: "1.5rem",
               }}
               onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
               onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
             >
-              Designing advanced unmanned systems for mission-critical operations — long-endurance platforms,
-              autonomous navigation and secure comms tailored for defense and enterprise.
+              Designing advanced unmanned systems for mission-critical operations, long-endurance platforms and
+              autonomous navigation tailored for defense and enterprise.
             </p>
 
-            {/* Buttons */}
+      
             <div className="d-flex flex-wrap gap-2 mt-3">
               <Button href="#capabilities">Explore Systems</Button>
               <Button href="#contact" secondary>
-                Contact Sales
+                Contact Us
               </Button>
             </div>
 
-            {/* Small text with hover enlarge */}
+           
             <div
               className="mt-4 small"
               style={{
@@ -112,11 +114,11 @@ export default function Home() {
               onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
               onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
             >
-              <strong>Proven on-field reliability</strong> • Redundant avionics • Hardened comms • Secure autopilot
+            
             </div>
           </div>
 
-          {/* RIGHT SIDE */}
+          {/* Right side */}
           <div className="col-md-6 d-flex justify-content-center">
             <div
               className="position-relative w-100"
@@ -141,7 +143,7 @@ export default function Home() {
                 }}
               >
                 <img
-                  src="/images/drone.avif"
+                  src="https://blackwhite.pictures/media/c/0301/drone-camera-isolated-background-2525.jpg"
                   alt="Drone"
                   className="img-fluid"
                   style={{ display: "block", width: "100%" }}
