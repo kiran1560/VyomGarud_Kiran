@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VyomGarud</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background: #1a1a1a;
+      color: #eee;
+      margin: 2rem;
+      line-height: 1.6;
+    }
+    a {
+      color: #ff7b00;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    pre {
+      background: #222;
+      color: #f97316;
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+    h1, h2, h3 {
+      color: #ff7b00;
+    }
+    hr {
+      border: 1px solid #444;
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>VyomGarud Landing Page</h1>
+  <p>
+    A modern, responsive landing page for
+    <strong>VyomGarud</strong>, a UAV/drone systems company with a military-grade,
+    professional identity.
+  </p>
+  <hr />
 
-## Getting Started
+  <h2>Tech Stack</h2>
+  <ul>
+    <li>Next.js 14 (React framework with App Router)</li>
+    <li>Tailwind CSS for styling</li>
+  </ul>
+  <hr />
 
-First, run the development server:
+  <h2>Deployment</h2>
+  <p>
+    Deployed live on Vercel:<br />
+    <a href="https://vyom-garud-kiran.vercel.app/"
+      >https://vyom-garud-kiran.vercel.app/</a
+    >
+  </p>
+  <hr />
 
-```bash
+  <h2>Commands </h2>
+  <pre><code># Create new Next.js project (JavaScript)
+npx create-next-app@latest vyomgarud --javascript
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</code></pre>
+  <hr />
+</body>
+</html>
